@@ -1,0 +1,188 @@
+*{
+	direction: rtl;
+}
+.mamoorkharid {
+    margin: auto;
+}
+.mamoorkharid .nav-tabs > li{
+	float: left;
+	margin-bottom: -3px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.mamoorkharid .nav-tabs>li>a {
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+	background-color: #fff;
+}
+
+.mamoorkharid .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+}
+.mamoorkharid .nav>li {
+    position: relative;
+    display: block;
+}
+
+.mamoorkharid .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #e6e6e6;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+	box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+	
+}
+.mamoorkharid .nav-tabs {
+    border-bottom: 0px solid #ddd;
+}
+.mamoorkharid .nav {
+    padding-left: 0;
+	padding-right: 0;
+    margin-bottom: 0;
+    list-style: none;
+	position: relative;
+	margin: 0;
+}
+.mamoorkharid .btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .mamoorkharid .btn-toolbar:after, .btn-toolbar:before, .mamoorkharid .clearfix:after, .clearfix:before, .container-fluid:after, .mamoorkharid .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .mamoorkharid .modal-footer:before, .modal-header:after, .mamoorkharid .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .mamoorkharid .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .mamoorkharid .navbar:after, .mamoorkharid .navbar:before, .mamoorkharid .pager:after, .mamoorkharid .pager:before, .mamoorkharid .panel-body:after, .panel-body:before, .mamoorkharid .row:after, .mamoorkharid .row:before {
+    display: table;
+    content: " ";
+}
+.mamoorkharid .btn-group-vertical>.btn-group:after, .mamoorkharid .btn-toolbar:after, .mamoorkharid .clearfix:after, .mamoorkharid .container-fluid:after, .mamoorkharid .container:after, .mamoorkharid .dl-horizontal dd:after, .mamoorkharid .form-horizontal .form-group:after, .mamoorkharid .modal-footer:after, .modal-header:after, .nav:after, .navbar-collapse:after, .mamoorkharid .navbar-header:after, .mamoorkharid .navbar:after, .mamoorkharid .pager:after, .mamoorkharid .panel-body:after, .mamoorkharid .row:after {
+    clear: both;
+}
+.mamoorkharid .tab-content>.tab-pane {
+    display: none;
+    font-family: Iransans !important;
+}
+
+.mamoorkharid .fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+
+.mamoorkharid .tab-content>.active {
+    display: block !important;
+    font-family: Iransans !important;
+}
+
+.mamoorkharid .tab-content>.tab-pane {
+    display: none;
+    font-family: Iransans !important;
+}
+.mamoorkharid .fade.in {
+    opacity: 1;
+}
+.mamoorkharid .tab-content>.tab-pane input[type="text"], .mamoorkharid select, .mamoorkharid textarea {
+    border-color: rgba(106, 129, 245, 0.9);
+	margin: auto !important;
+	font-family: Iransans !important;
+	border-width: 1px !important;
+	width: 100%;
+}
+.mamoorkharid .tab-content>.tab-pane input[type="text"]{
+	font-size: 13px !important;
+	padding-right: 30px !important;
+	border-top-right-radius: 5px !important;
+	border-color: #e1e1e1;
+	background-color: #f8f8f8;
+}
+.mamoorkharid .tab-content h3{
+	font-family: Iransans;
+	color: lightblue;
+}
+.mamoorkharid .tab-content{
+	position: relative;
+	padding-left: 2px;
+}
+.mamoorkharid .search-result{
+    position: absolute;
+    font-size: 12px;
+    background-color: #ccc;
+    line-height: 16px;
+    max-height: 300px;
+	overflow: auto;
+	width: 100%;
+	z-index: 99;
+}
+
+.mamoorkharid .tooltips {
+    position: relative;
+    display: inline-block;
+}
+
+.mamoorkharid .tooltips .tooltipstext {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: right;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+	min-width: 200px;
+}
+
+.mamoorkharid .tooltips .tooltipstext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.mamoorkharid .tooltips:hover .tooltipstext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.search-icon{
+	position: absolute;
+	height: 100%;
+}
+
+.search-icon button{
+	border-radius: 0px 5px 0px 0px;
+	padding-top: 0px;
+	height: 36px;
+	border: 1px solid #ccc;
+	width: 29px;
+	height: 100%;
+	padding: 5px;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-search::before {
+    content: "\e003";
+}
+
+@media screen and (max-width: 840px) {
+	.mamoorkharid .nav > li:first-child{
+		bottom: 50px;
+	}
+}
